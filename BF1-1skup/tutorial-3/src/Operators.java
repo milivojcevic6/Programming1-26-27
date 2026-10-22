@@ -1,0 +1,33 @@
+public class Operators {
+
+    /*
+            + - * / %
+    */
+
+    public static void basicOperators(){
+
+        int a = 7;
+        int b = 3;
+
+        System.out.println("a je: " + a);
+        System.out.println("b je: " + b);
+        System.out.println("a + b je: " + a + b  );
+        System.out.println("a + b je: " + (a + b)  );
+        System.out.println("a - b je: " + (a - b)  );
+        System.out.println("a * b je: " + (a * b)  );
+        System.out.println("a / b je: " + (a / b)  );
+        System.out.println("a % b je: " + (a % b)  );
+    }
+
+    public static void nums(){
+
+//        int a = 8;
+//        int b = 5;
+        int a = 8, b = 5;
+
+        int c = a + b;
+        System.out.println("c je: " + c);
+
+    }
+
+}
